@@ -7,7 +7,6 @@
 !pip install msgpack-python==0.5.6
 !pip install msgpack-rpc-python==0.4.1
 !pip install airsimdroneracinglab==1.0.2
-
-
-pip install "msgpack<1.0.0"   
-pip install msgpack-rpc-python
+!pip install "msgpack<1.0.0"   
+!pip install msgpack-rpc-python
+!pip install pygame
