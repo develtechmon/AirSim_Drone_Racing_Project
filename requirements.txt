@@ -10,3 +10,5 @@
 !pip install "msgpack<1.0.0"   
 !pip install msgpack-rpc-python
 !pip install pygame
+!pip install tornado==4.5.3
+!pip install stable-baselines3[extra] == 2.7.0

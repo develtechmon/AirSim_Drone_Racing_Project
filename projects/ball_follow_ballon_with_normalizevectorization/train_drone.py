@@ -19,8 +19,8 @@ def train_drone():
     # Create 4 parallel environments for faster training
     train_env = make_vec_env(
         'DroneBalloon-v0',
-        n_envs=4,
-        seed=42
+        n_envs=4, # create seperate copies of the environment
+        seed=42 # ensure the environment start with same randomess pattern each time
     )
     
     # Wrap with monitor to track episode statistics
